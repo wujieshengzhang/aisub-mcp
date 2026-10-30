@@ -1,0 +1,3 @@
+# Registry signing keys and mcp-publisher login tokens
+*.pem
+.mcpregistry_*

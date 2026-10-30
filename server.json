@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.yuanwu/aisub",
+  "title": "AISub",
+  "description": "ChatGPT, Claude, Gemini, Perplexity and Grok subscription prices by country, with price history.",
+  "version": "1.0.0",
+  "websiteUrl": "https://aisub.yuanwu.ai/en/mcp",
+  "icons": [
+    {
+      "src": "https://aisub.yuanwu.ai/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/wujieshengzhang/aisub-mcp",
+    "source": "github",
+    "id": "1439873277"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aisub.yuanwu.ai/mcp"
+    }
+  ]
+}
